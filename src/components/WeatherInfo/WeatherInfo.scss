@@ -1,0 +1,35 @@
+.weather {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e2e2e2;
+  margin: 16px 0;
+  border-radius: 4px;
+
+  &__img {
+    margin-right: 8px;
+    min-height: 100px;
+  }
+
+  &__temp {
+    font-weight: bold;
+    font-size: 32px;
+  }
+}
+
+.parameters-wrapper {
+  display: flex;
+  justify-content: space-between;
+  gap: 5px;
+  margin-top: 16px;
+
+  .parameters-column {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+  }
+
+  svg {
+    margin-right: 4px;
+  }
+}

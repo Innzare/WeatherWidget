@@ -1,0 +1,48 @@
+.settings-wrapper {
+  position: absolute;
+  z-index: 100;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 6px;
+  background-color: #fff;
+  padding: 16px;
+
+  .settings {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &__title {
+      font-weight: bold;
+    }
+
+    &__cross {
+      display: flex;
+      align-items: center;
+    }
+  }
+
+  .autocomplete-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+    margin-top: 16px;
+
+    .autocomplete {
+      flex: 1;
+    }
+  }
+
+  .locations-wrapper {
+    margin-top: 8px;
+    max-height: 180px;
+    overflow-y: auto;
+
+    .location {
+      margin-bottom: 8px;
+    }
+  }
+}

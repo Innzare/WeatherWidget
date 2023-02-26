@@ -1,0 +1,74 @@
+.settings-svg-icon {
+  width: 24px;
+  height: 24px;
+  transition: all .2s;
+  opacity: 0.5;
+  cursor: pointer;
+
+  &:hover {
+     opacity: 1;
+  }
+}
+
+.location-svg-icon {
+  width: 12px;
+  height: 12px;
+}
+
+.compass-svg-icon {
+  width: 14px;
+  height: 14px;
+}
+
+.burger-svg-icon {
+  width: 24px;
+  height: 24px;
+  fill: rgb(125, 125, 125);
+}
+
+.cross-svg-icon {
+  width: 18px;
+  height: 18px;
+  transition: all .2s ease;
+  fill: #939393;
+  cursor: pointer;
+
+  &:hover {
+     fill: #000;
+  }
+}
+
+.enter-svg-icon {
+  width: 22px;
+  height: 22px;
+  fill: rgb(68, 68, 68);
+}
+
+.left-svg-icon {
+  width: 14px;
+  height: 14px;
+  fill: rgb(125, 125, 125);
+}
+
+.right-svg-icon {
+  width: 14px;
+  height: 14px;
+  fill: rgb(125, 125, 125);
+}
+
+.trash-svg-icon {
+  width: 18px;
+  height: 18px;
+  fill: rgb(125, 125, 125);
+  transition: 0.2s;
+
+  &:hover {
+    fill: rgb(255, 0, 0);
+  }
+}
+
+.weather-svg-icon {
+  width: 120px;
+  height: 120px;
+  fill: rgb(125, 125, 125);
+}
